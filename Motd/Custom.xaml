@@ -27,7 +27,7 @@ Line 45-50.更新项下的当前版本地址、更新地址
                 <ColumnDefinition Width="1*" />
             </Grid.ColumnDefinitions>
             <local:MyButton Grid.Column="0" Margin="0,0,10,0" Height="35"
-			Text="点击复制服务器地址" EventType="复制文本" EventData=""/>			
+			Text="点击复制服务器地址" EventType="复制文本" EventData="nageshay.eu.org:1119"/>			
             <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35" 
                         Text="加入群聊" EventType="弹出窗口" EventData="非常抱歉|群聊当前为私密，你可以尝试联系Anothra" />
         </Grid>
