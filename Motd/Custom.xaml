@@ -45,7 +45,7 @@ Line 45-50.更新项下的当前版本地址、更新地址
             <local:MyButton Grid.Column="0" Margin="0,0,10,0" Height="35"
 			            Text="当前版本" EventType="打开文件" EventData="{path}\.minecraft\versions\1.20.1-Fabric 0.14.21\Version.txt" />	
             <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35" 
-                        Text="检查更新" EventType="打开网页" EventData="https://github.com/Nageshay/MY-MC-Client-Package/blob/main/Version.txt" />
+                        Text="检查更新" EventType="打开网页" EventData="https://github.com/Nageshay/MY-MC-Client-Package/blob/main/Update/Version.txt" />
 			<local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35"
 			            Text="下载更新" EventType="打开网页" EventData="https://github.com/Nageshay/MY-MC-Client-Package/tree/main/Update"/>
         </Grid>
