@@ -45,7 +45,7 @@ Line 45-50.更新项下的当前版本地址、更新地址
 				<ColumnDefinition Width="1.5*" />
             </Grid.ColumnDefinitions>
             <local:MyButton Grid.Column="0" Margin="0,0,10,0" Height="35"
-			            Text="查看当前版本" EventType="打开文件" EventData="{path}\.minecraft\versions\1.20.1-Fabric 0.14.21\Version.txt" />	
+			            Text="查看当前版本" EventType="打开文件" EventData="{path}\Version.txt" />	
             <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35" 
                         Text="检查更新" EventType="打开网页" EventData="https://github.com/Nageshay/MY-MC-Client-Package" />
 			<local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35"
