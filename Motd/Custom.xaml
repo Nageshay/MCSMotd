@@ -6,7 +6,7 @@ Line 29-32.服务器地址和端口号、群聊地址
 Line 45-50.更新项下的当前版本地址、更新地址
 -->
 
-<local:MyCard Title="由Anothra整合并提供后续支持的Minecraft本体包" Margin="0,0,0,15" CanSwap="True">
+<local:MyCard Title="由Anothra整合并提供后续支持的Minecraft本体包" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
 		Text="作者Anothra（曾用名Nageshay）"/>
@@ -36,8 +36,6 @@ Line 45-50.更新项下的当前版本地址、更新地址
 
 <local:MyCard Title="公告和更新" Margin="0,0,0,15" CanSwap="True">
     <StackPanel Margin="25,40,23,15">
-		<TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-		Text="对照查看更新日志、版本号或日期，可以知道是否有更新。"/>
 		<Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="1*" />
@@ -45,11 +43,29 @@ Line 45-50.更新项下的当前版本地址、更新地址
 				<ColumnDefinition Width="1.5*" />
             </Grid.ColumnDefinitions>
             <local:MyButton Grid.Column="0" Margin="0,0,10,0" Height="35"
-			            Text="查看当前版本" EventType="打开文件" EventData="{path}\.minecraft\versions\1.20.1-Fabric 0.14.21\Version.txt" />	
+			            Text="当前版本" EventType="打开文件" EventData="{path}\.minecraft\versions\1.20.1-Fabric 0.14.21\Version.txt" />	
             <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35" 
-                        Text="检查更新" EventType="打开网页" EventData="https://github.com/Nageshay/MY-MC-Client-Package" />
+                        Text="检查更新" EventType="打开网页" EventData="https://github.com/Nageshay/MY-MC-Client-Package/blob/main/Version.txt" />
 			<local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35"
-			            Text="下载更新" EventType="弹出窗口" EventData="未实装|请在群组内手动下载更新"/>
+			            Text="下载更新" EventType="打开网页" EventData="https://github.com/Nageshay/MY-MC-Client-Package/tree/main/Update"/>
+        </Grid>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="快速工具" Margin="0,0,0,15" CanSwap="True">
+    <StackPanel Margin="25,40,23,15">
+		<Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+				<ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <local:MyButton Grid.Column="0" Margin="0,0,10,0" Height="35"
+			            Text="刷新主页" EventType="刷新主页" />	
+            <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35" 
+                        Text="打开Mod文件夹" EventType="打开文件" EventData="{path}\.minecraft\versions\1.20.1-Fabric 0.14.21\Mods" />
+			<local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35"
+			            Text=" " EventType="弹出窗口" EventData="未实装|"/>
         </Grid>
     </StackPanel>
 </local:MyCard>
