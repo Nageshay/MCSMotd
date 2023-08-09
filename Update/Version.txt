@@ -1,8 +1,114 @@
-Version:1.30
-Date:2023/07/30
-
-更新记录：
-Version:1.30
-Date:2023/07/30
-	前版本略
-	新增了启动器界面的部分功能
+Version: 1.4
+Date:20230810
+Content:
+	加入了：
+		walljump
+			向墙跳去，按住shift可攀住，并可再次跳跃。
+		amecs
+			多组合的快捷键设置
+		Patchouli ./banned
+			为其他模组提供手册。因为可用不多，默认没有启用。
+		connectiblechains
+			可用铁链连接栅栏。
+		carryon
+			按住shift点击右键可以搬运/抱起箱子/生物等。
+		healingcampfire
+			为营火附近提供恢复血量的增益。
+		campfirespawnandtweaks
+			为营火添加了重生点属性，点燃为设置/熄灭为取消设置。
+		hardcorerevival ./banned
+			血量为0时倒地，可由其他玩家施救。默认没有启用（服务器同步，启用也无效）
+		yuushya
+			用于城市建设设计的资源包。
+		XaeroPlus
+			对地图功能有一定增强，请自行体验。
+		Dynmap
+			增加了一种通过网页实时查看（僵尸毁灭工程风格）地图的方式，但是没有成功实装，请等待下一次更新。
+		
+Mods List:
+|	API/Basis:
+|		fabric-api
+|		sodium
+|		sodium-extra
+|		reeses-sodium-options
+|		Architectury
+|		Dashloader
+|		Lithium
+|		modmenu
+|		entity-culling
+|		ferrite-core
+|		starlight ./banned
+|		libIPN
+|		Indium
+|		ImmediatelyFast
+|		Iris
+|		C2me
+|		botarium
+|		BRRP
+|		maliLib
+|		CreativeCore
+|		resourcefullib
+|		resourcefulconfig
+|		nvidium	./banned
+|		PuzzlesLib
+|		ForgeConfigAPIPort
+|		supermartijn642configlib
+|		moreculling	./banned
+|		fabric-language-kotlin
+|		cloth
+|		collective
+|	Visual/Functions:
+|		Blur
+|		FirstPerson
+|		InventoryProfilesNext
+|		Xaeros-minimap
+|		Xaeros-worldmap
+|		Xaeros-Plus
+|		Litematica
+|		Syncmatica
+|		3dSkinLayers
+|		worldedit
+|		WorldEditCUI
+|		arrowcollector
+|		EnhancedVisuals
+|		Jade
+|		chunksfadein
+|		appleskin
+|		foodeffecttooltips
+|		Smoothswapping
+|		PlasmoVoice
+|		UniversalEnchants
+|		enchantips
+|		OverflowingBars
+|		Ping-Wheel
+|		harvestwithease
+|		walljump
+|		amecs
+|		Patchouli ./banned
+|		connectiblechains
+|		carryon
+|		healingcampfire
+|		campfirespawnandtweaks
+|		hardcorerevival ./banned
+|	Settings:
+|		BetterF3
+|		dynamicFPS
+|		NoChatReports
+|		beautifiedchatclient
+|		IMBlocker
+|		BetterPingDisplay
+|		I18nUpdateMod	
+|		axolotl-item-fix				
+|		bettertaskbar
+|		borderless-mining				
+|		Dynmap		
+|	Resources:
+|		NotEnoughAnimations
+|		AppliedEnergistics2
+|		Ad-astra
+|		mishanguc
+|		yuushya
+|		tectonic
+|		ChoiceTheorem's Overhauled Village
+|		MTR	./banned
+|		wormhole ./banned
