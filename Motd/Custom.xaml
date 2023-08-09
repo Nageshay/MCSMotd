@@ -49,7 +49,7 @@ Line 40/50/52.更新项下的当前版本地址、更新地址
             <local:MyButton Grid.Column="1" Margin="0,0,10,0" Height="35" 
                         	    Text="检查更新" EventType="打开网页" EventData="https://github.com/Nageshay/MY-MC-Client-Package/blob/main/Update/Version.txt" />
 			<local:MyButton Grid.Column="2" Margin="0,0,10,0" Height="35"
-			            Text="下载更新" EventType="打开网页" EventData="https://github.com/Nageshay/MY-MC-Client-Package/tree/main/Update"/>
+			            Text="下载更新" EventType="打开网页" EventData="https://github.com/Nageshay/MY-MC-Client-Package/tree/main/Update/1.40"/>
         </Grid>
     </StackPanel>
 </local:MyCard>
